@@ -18,7 +18,7 @@ namespace Testies
         {
             irfPic = Resources.IRF;
             irfPicH = Resources.IRF_HL;
-            linkPic = Resources.Link_Agg;
+            linkPic = Resources.Link_Agg2;
             linkPicH = Resources.Link_Agg_HL;
             snmpPic = Resources.SNMP;
             snmpPicH = Resources.SNMP_HL;
