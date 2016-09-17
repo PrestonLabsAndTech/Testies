@@ -104,9 +104,16 @@
             this.Controls.Add(this.snmpButton);
             this.Controls.Add(this.linkAggButton);
             this.Controls.Add(this.irfButton);
+
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "SlightCode";
             this.Text = "SlightCode [ALPHA V 3.0]";
+
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Name = "SlightCode";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "SlightCode";
+
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
