@@ -104,8 +104,9 @@
             this.Controls.Add(this.snmpButton);
             this.Controls.Add(this.linkAggButton);
             this.Controls.Add(this.irfButton);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "SlightCode [ALPHA V 3.0]";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
