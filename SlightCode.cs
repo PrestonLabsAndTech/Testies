@@ -5,7 +5,7 @@ using Testies.Properties;
 
 namespace Testies
 {
-    public partial class Form1 : Form
+    public partial class SlightCode : Form
     {
         private Image irfPic;
         private Image irfPicH;
@@ -14,7 +14,7 @@ namespace Testies
         private Image snmpPic;
         private Image snmpPicH;
 
-        public Form1()
+        public SlightCode()
         {
             irfPic = Resources.IRF;
             irfPicH = Resources.IRF_HL;
